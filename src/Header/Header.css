@@ -73,6 +73,8 @@
 
 .nav-drop {
     display: none;
+    
+    z-index:99;
     height: 200px;
     animation: growDown 300ms ease-in-out forwards;
     transform-origin: top center;
