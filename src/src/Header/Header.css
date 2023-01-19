@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --blue: #1a4ed0;
+    ;
+}
+
+.brand-bar {
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
+    padding-right: 1%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1%;
+}
+
+.nav-left {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(15, auto);
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-item {    
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav-item:hover, .down ul li:hover {
+    color: var(--blue) !important;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right .signup {
+    background-color: var(--blue);
+    color: white;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 50px;
+    cursor: pointer;
+}
+
+.nav-drop {
+    display: none;
+    position: absolute;
+    width:100vw;
+    z-index:99;
+    height: 200px;
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;    
+    background-color: white;
+}
+
+.nav-drop .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width:100%;
+    border-bottom: 1px solid grey;
+}
+
+.top img {
+    width: 130px;
+    height: 130px;
+    margin: 2px;
+}
+
+.top img:hover {
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
+}
+
+.down ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.down ul li {
+    margin: 0 2%;
+    font-weight: 650;
+    font-size: 13px;
+}
+
+li::before {
+    content: "\2022";
+    color: var(--blue);
+    font-weight: bolder;
+    font-size: 25px;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.search-popup input{
+    width:300px;
+    height:40px;
+    padding-left:2px;
+}
+.search-popup label{
+    background-color: var(--blue);
+    color:white;
+    padding:11px;
+    cursor: pointer;
+}
+.search-bg{
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+.search-popup{
+    position: absolute;
+    top:12%;
+    left:70%;
+}
+
+

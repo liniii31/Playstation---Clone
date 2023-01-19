@@ -1,0 +1,74 @@
+.poster{
+    display: flex;    
+    height:700px;
+}
+.color-bg{
+    background-color: rgb(94, 6, 72);
+    width:10%;
+}
+.poster-bg{
+    width:90%;
+    background-image:
+    linear-gradient(to right, rgb(94, 6, 72),rgba(245, 246, 252, 0.01)),
+    url('https://assets.reedpopcdn.com/TLOU-SITE-(1)_yiO4cbD.jpg/BROK/thumbnail/1600x900/quality/100/TLOU-SITE-(1)_yiO4cbD.jpg');
+}
+.poster-details{
+    position: absolute;
+    background-color: inherit;
+    width:500px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-top: 300px;
+    text-align: left;
+}
+.product-heading{
+    font-size: 80px;
+    font-weight: bolder;
+    color:white;
+    letter-spacing: 3px;
+    animation: details 3s linear forwards;
+    transform-origin: bottom;
+}
+.product-available{
+    font-size: 25px;
+    color:white;
+    letter-spacing: 2px;
+    margin:5px 0;
+    animation: details 3s linear forwards;
+    transform-origin: bottom;
+}
+.product-para{
+    color:white;
+    margin:5px 0;
+    animation: details 3s linear forwards;
+    transform-origin: bottom;
+}
+
+.poster-btn{
+    background-color: orange;
+    color:white;
+    width:100px;
+    height:50px;
+    border-radius: 25px;
+    margin:10px 0;
+    border:none;
+    padding:3px;
+    animation: details 3s linear forwards;
+    transform-origin: bottom;
+}
+.poster-btn:hover{
+    background-clip: content-box;
+    border:2px solid orange;
+    cursor:pointer;
+}
+@keyframes details {
+    0%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
