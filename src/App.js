@@ -1,5 +1,6 @@
 import Header from './Header/Header';
 import Carousel from './Carousel/Carousel';
+import Products from './Products/Products';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <Carousel/>
+      <Products/>
     </div>
   );
 }

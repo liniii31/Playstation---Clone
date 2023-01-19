@@ -73,12 +73,13 @@
 
 .nav-drop {
     display: none;
-    
+    position: absolute;
+    width:100vw;
     z-index:99;
     height: 200px;
     animation: growDown 300ms ease-in-out forwards;
-    transform-origin: top center;
-    
+    transform-origin: top center;    
+    background-color: white;
 }
 
 .nav-drop .top {
@@ -86,6 +87,7 @@
     align-items: center;
     justify-content: center;
     height: 150px;
+    width:100%;
     border-bottom: 1px solid grey;
 }
 
