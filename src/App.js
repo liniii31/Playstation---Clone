@@ -1,6 +1,8 @@
 import Header from './Header/Header';
 import Carousel from './Carousel/Carousel';
 import Products from './Products/Products';
+import Poster from './Poster/Poster';
+import Slider from './Slider/Slider';
 import './App.css';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <Header/>
       <Carousel/>
       <Products/>
+      <Poster/>
+      <Slider/>
     </div>
   );
 }

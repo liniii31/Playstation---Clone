@@ -12,7 +12,7 @@ function Products() {
                 </div>
                 <div className='products-div'>
                     <div className='product'>
-                        <img alt="product" src="https://gmedia.playstation.com/is/image/SIEPDC/ps4-product-thumbnail-01-en-14sep21?$facebook$" />
+                        <img alt="product" src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605258582/Croma%20Assets/Gaming/Gaming%20Consoles/Images/8810328850462.jpg/mxw_640,f_auto" />
                         <div className='product-details'>
                             <div className='heading'>PlayStation 4</div>
                             <div className='para'>Incredible games live on PS4, with 1TB storage.</div>
