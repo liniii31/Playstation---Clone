@@ -2,14 +2,16 @@ import './Slider.css';
 
 function Slider() {
     function next(e) {
-        let width = document.getElementsByClassName('release-1')[0].clientWidth;
-        document.getElementsByClassName('releases-div')[0].scrollLeft += width;
-
+        document.getElementsByClassName('release-1')[0].style.display="none";
+        document.getElementsByClassName('release-2')[0].style.display="block";
+        document.getElementsByClassName('release-2')[0].classList.add('goNext');
+        document.getElementsByClassName('release-1')[0].classList.remove('goPrev');
     }
     function prev(e) {
-        let width = document.getElementsByClassName('release-1')[0].clientWidth;
-        document.getElementsByClassName('releases-div')[0].scrollLeft -= width;
-
+        document.getElementsByClassName('release-2')[0].style.display="none";
+        document.getElementsByClassName('release-1')[0].style.display="block";        
+        document.getElementsByClassName('release-2')[0].classList.remove('goNext');
+        document.getElementsByClassName('release-1')[0].classList.add('goPrev');
     }
     return (
         <>

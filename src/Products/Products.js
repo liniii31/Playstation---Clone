@@ -1,5 +1,6 @@
 import './Products.css';
 
+
 function Products() {
     return (
         <>
@@ -35,6 +36,22 @@ function Products() {
                             <button className='product-btn'>Learn more</button>
                         </div>
                     </div>
+                </div>
+                <div className='offer'>
+                    <div className='offer-details'>
+                        <div className='offer-details-heading'>
+                            <img alt="shopping-bag" src={require("./bag.png")}/>
+                            <p>Playstation<sub>TM</sub>Store</p>
+                        </div>
+                        <div className='offer-details-heading2'>
+                        New savings on <br/>PlayStation Store
+                        </div>
+                        <div className='offer-details-para'>
+                        Explore the latest discounts and seasonal sales on <br/>great games and add-ons for PS5 and PS4.
+                        </div>
+                        <button className='product2-btn'>See all deals</button>
+                    </div>
+                    <div className='offer-img'></div>
                 </div>
             </div>
         </>
