@@ -58,7 +58,7 @@
     padding:3px;
 }
 .scrolled{    
-    animation: details 7s ease-in forwards;
+    animation: details 2s ease-in forwards;
     transform-origin: bottom;
 }
 .poster-btn:hover{

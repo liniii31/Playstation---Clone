@@ -1,8 +1,6 @@
 import './Poster.css';
 
-function Poster() {
-    const scrollOffset = 0;
-    const scrollElement = document.querySelector(".poster-details");
+function Poster() {   
     const elementInView = (el, offset = 0) => {
         const elementTop = el.getBoundingClientRect().top;
         return (
@@ -11,21 +9,23 @@ function Poster() {
         );
     };
     const displayScrollElement = () => {
-        scrollElement.classList.add('scrolled');
+        document.getElementsByClassName('poster-details')[0].classList.add('scrolled');
     }
     const hideScrollElement = () => {
-        scrollElement.classList.remove('scrolled');
+        document.getElementsByClassName('poster-details')[0].classList.remove('scrolled');
     }
     const handleScrollAnimation = () => {
-        if (elementInView(scrollElement, scrollOffset)) {
+        if (elementInView( document.getElementsByClassName('poster-details')[0], 0)) {
             displayScrollElement();
         } else {
             hideScrollElement();
         }
     }
     window.addEventListener('scroll', () => {
+        console.log("scroll hi");
+        console.log(document.getElementsByClassName('poster-details')[0]);
         handleScrollAnimation();
-    })
+    })    
     return (
         <>
             <div className='poster'>

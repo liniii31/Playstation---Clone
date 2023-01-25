@@ -1,0 +1,85 @@
+.Blog{
+    padding:50px 50px;
+    height:700px;
+    width:calc(100vw - 100px);
+    box-sizing: border-box;
+    padding-right: 0px;
+}
+.blog-heading{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-slider{
+    padding:15px;
+    display: flex;
+    overflow-x: hidden;
+    
+}
+
+.blog-div{
+    background-color: #f1f2f6;
+    width:400px;
+    height:550px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px 15px;
+}
+.blog-img img{
+    width:370px;
+    height:250px;
+    border-radius: 12px;
+}
+.blog-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-details{
+    margin:20px;
+}
+.blog-details-heading{
+    font-size:18px;
+    text-align: left;
+}
+.blog-details-para{
+    font-size: 0.8rem;
+    color:grey;
+    text-align: left;
+}
+.blog-details-author{
+    width:370px;
+    height:70px;
+    display: flex;
+    margin-top:10px;
+}
+.blog-details-author-img img{
+    border-radius: 7px;
+    width: 70px;
+    height:70px;
+}
+.blog-details-author-details{
+    margin-left:10px;
+}
+.author-name{
+    font-size: 0.8rem;
+    font-weight:bold;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.author-about{
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.author-time{
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-align: left;
+    color:grey;
+}
