@@ -4,6 +4,7 @@ import Products from './Products/Products';
 import Poster from './Poster/Poster';
 import Slider from './Slider/Slider';
 import ProductSlider from './ProductSlider/ProductSlier';
+import Footer from './Footer/Footer';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Poster/>
       <Slider/>
       <ProductSlider/>
+      <Footer/>
     </div>
   );
 }

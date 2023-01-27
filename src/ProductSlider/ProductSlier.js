@@ -97,7 +97,7 @@ function ProductSlider() {
                     </div>
                     <div className='blog-div'>
                         <div className='blog-img'>
-                            <img alt="blog" src="https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/Sony-PSVR2-Launch-Window-Game-lineup.jpg" />
+                            <img alt="blog" src="https://press-start.com.au/wp-content/uploads/2022/04/Tomb-Raider.jpg" />
                         </div>
                         <div className='blog-details'>
                             <div className='blog-details-heading'>Kayank VR : Mirage joins the PS VR 2 launch line-up</div>
@@ -119,7 +119,7 @@ function ProductSlider() {
                     </div>
                     <div className='blog-div'>
                         <div className='blog-img'>
-                            <img alt="blog" src="https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/Sony-PSVR2-Launch-Window-Game-lineup.jpg" />
+                            <img alt="blog" src="https://staticg.sportskeeda.com/editor/2021/05/fdfad-16207470914047-800.jpg" />
                         </div>
                         <div className='blog-details'>
                             <div className='blog-details-heading'>Kayank VR : Mirage joins the PS VR 2 launch line-up</div>
@@ -141,7 +141,7 @@ function ProductSlider() {
                     </div>
                     <div className='blog-div'>
                         <div className='blog-img'>
-                            <img alt="blog" src="https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/Sony-PSVR2-Launch-Window-Game-lineup.jpg" />
+                            <img alt="blog" src="https://cdn2.unrealengine.com/fortnite-the-kid-larois-wild-dreams-1920x1080-d5f96d1d2dda.jpg" />
                         </div>
                         <div className='blog-details'>
                             <div className='blog-details-heading'>Kayank VR : Mirage joins the PS VR 2 launch line-up</div>
@@ -163,7 +163,7 @@ function ProductSlider() {
                     </div>
                     <div className='blog-div'>
                         <div className='blog-img'>
-                            <img alt="blog" src="https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/Sony-PSVR2-Launch-Window-Game-lineup.jpg" />
+                            <img alt="blog" src="https://i.ytimg.com/vi/hdRhRdLNSn4/maxresdefault.jpg" />
                         </div>
                         <div className='blog-details'>
                             <div className='blog-details-heading'>Kayank VR : Mirage joins the PS VR 2 launch line-up</div>
@@ -185,7 +185,7 @@ function ProductSlider() {
                     </div>
                     <div className='blog-div'>
                         <div className='blog-img'>
-                            <img alt="blog" src="https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/Sony-PSVR2-Launch-Window-Game-lineup.jpg" />
+                            <img alt="blog" src="https://blog.playstation.com/tachyon/2023/01/0edaebfbfe3e03e7b4def2dc1ed97e9afac44c1f.png?resize=1088%2C612&crop_strategy=smart" />
                         </div>
                         <div className='blog-details'>
                             <div className='blog-details-heading'>Kayank VR : Mirage joins the PS VR 2 launch line-up</div>
@@ -207,7 +207,7 @@ function ProductSlider() {
                     </div>
                     <div className='blog-div'>
                         <div className='blog-img'>
-                            <img alt="blog" src="https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/Sony-PSVR2-Launch-Window-Game-lineup.jpg" />
+                            <img alt="blog" src="https://media.contentapi.ea.com/content/dam/ea/starwars/star-wars-jedi-survivor/common/swj-survivor-featured-image-16x9.jpg.adapt.crop16x9.1023w.jpg" />
                         </div>
                         <div className='blog-details'>
                             <div className='blog-details-heading'>Kayank VR : Mirage joins the PS VR 2 launch line-up</div>
@@ -229,7 +229,7 @@ function ProductSlider() {
                     </div>
                     <div className='blog-div'>
                         <div className='blog-img'>
-                            <img alt="blog" src="https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/Sony-PSVR2-Launch-Window-Game-lineup.jpg" />
+                            <img alt="blog" src="https://blog.playstation.com/tachyon/2023/01/66cd0c4c129d4922cf2765acf03726c75813c942.jpg?resize=1088%2C612&crop_strategy=smart" />
                         </div>
                         <div className='blog-details'>
                             <div className='blog-details-heading'>Kayank VR : Mirage joins the PS VR 2 launch line-up</div>
