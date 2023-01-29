@@ -118,3 +118,31 @@
         transform:translateX(0)
     }
 }
+
+
+@media screen and (max-width:500px){
+    .release-details-heading{
+        font-size: 0.8rem;
+    }
+    .release-details-para{
+        font-size:1rem
+    }
+    .poster-img{
+        width:150px;
+        height:150px;
+    }
+    .poster-name{
+        font-size: 10px;
+    }
+    .release{
+        justify-content: center;
+        align-items: center;
+    }
+    .release-poster-name{
+        padding: 5px;
+    }
+    .release-details{
+        margin:5px;
+    }
+    
+}

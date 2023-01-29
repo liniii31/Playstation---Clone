@@ -64,3 +64,25 @@
     font-size: 70px;
     margin: 0;
 }
+
+@media screen and (max-width:1200px) {
+    .footer-about{
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        height:auto;
+        grid-gap :20px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .footer-right{
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        height:auto;
+    }
+}
+@media screen and (max-width:500px) {
+    .social-media{
+        font-size: 50px;
+    }
+}

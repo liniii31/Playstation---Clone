@@ -170,4 +170,22 @@ li::before {
     left:70%;
 }
 
+@media screen and (max-width:1150px){
+    .search-icon{
+        display: none;
+    }
+}
+@media screen and (max-width:800px){
+    .nav-item{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:550px) {
+    .nav-item{
+        display: none;
+    }
+    .nav-left{
+        width:50%;
+    }
+}
 

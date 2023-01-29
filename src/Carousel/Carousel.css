@@ -54,3 +54,10 @@
     background-repeat: no-repeat;
     opacity: 0.5;
 }
+
+@media screen and (max-width:1200px) {
+    .bg-image{
+        width:150px;
+        height:75px;
+    }
+}
